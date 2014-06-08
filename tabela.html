@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+	<html lang="pt-br">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Testando Tabales</title>
+		<style type="text/css">
+
+			body {
+				background-color: rgba(0,0,0,.07);
+			}
+
+			div#main {
+				margin-top: 20px;
+				margin-bottom: 20px;
+				padding: 25px 20px 20px 20px;
+				width: 800px;
+				margin-right: auto;
+				margin-left: auto;
+				background-color: white;
+				box-shadow: 0px 0px 30px rgba(0,0,0,.1)
+				}
+
+			div#main h1 {
+				font-family: Arial, sans-serif;
+				font-size: 18pt;
+				color: rgba(0,0,0,.7);
+				margin-bottom: 0px;
+				margin-top: 20px;
+			}
+
+			div#main p {
+				font-family: Arial, sans-serif;
+				font-size: 12pt;
+				color: rgba(0,0,0,.6);
+				margin-top: 0px;
+				margin-bottom: 0px;
+			}
+
+			header#cabecalho h1 {
+				font-family: Arial, sans-serif;
+				font-size: 36pt;
+				color: rgba(0,0,0,.7);
+				margin-bottom: 0px;
+				margin-top: 0px;	
+			}
+
+
+			header#cabecalho h2 {
+				font-family: Arial, sans-serif;
+				font-size: 18pt;
+				color: rgba(0,0,0,.7);
+				margin-bottom: 0px;
+			}
+
+
+			header#cabecalho p {
+				font-family: Arial, sans-serif;
+				font-size: 12pt;
+				color: rgba(0,0,0,.7);
+				margin-bottom: 20px;
+				border-bottom: 1px rgba(0,0,0,.3) solid;
+			}
+
+			div#tabela {
+				text-align: center;
+				background-color: rgba(0,0,0,.05);
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 0px;
+				padding: 10px 20px 20px 20px;
+			}
+
+			table#tabela01 {
+				margin-left: auto;
+				margin-right: auto;
+				padding: 10px;
+				border-spacing: 0px;
+				margin-top: 5px;
+			}
+
+			table#tabela01 td {
+				width: 150px;
+				border: 1px solid rgba(0,0,0,.5);
+				padding: 10px;
+			}
+
+
+			table#tabela02 {
+				margin-left: auto;
+				margin-right: auto;
+				padding: 10px;
+				border-spacing: 0px;
+				margin-top: 5px;
+				background-color: rgba(0,0,0,.2);
+			}
+
+			table#tabela02 td {
+				width: 150px;
+				border: 1px solid rgba(255,255,255,.2);
+				padding: 10px;
+				background-color: rgba(0,0,0,.2);
+				font-family: Arial, sans-serif;
+				color: rgba(0,0,0,.8);
+			}
+
+
+			table#tabela03 {
+				margin-left: auto;
+				margin-right: auto;
+				padding: 10px;
+				border-spacing: 0px;
+				margin-top: 5px;
+				background-color: rgba(0,0,0,.2);
+			}
+
+			table#tabela03 td {
+				text-align: center;
+				width: 150px;
+				border: 1px solid rgba(255,255,255,.2);
+				padding: 10px;
+				background-color: rgba(0,0,0,.2);
+				font-family: Arial, sans-serif;
+				color: rgba(0,0,0,.8);
+			}
+
+			table#tabela04 {
+				margin-left: auto;
+				margin-right: auto;
+				padding: 10px;
+				border-spacing: 0px;
+				margin-top: 5px;
+				background-color: rgba(0,0,0,.2);
+			}
+
+			table#tabela04 td {
+				text-align: center;
+				width: 150px;
+				border: 1px solid rgba(255,255,255,.2);
+				padding: 10px;
+				background-color: rgba(0,0,0,.2);
+				font-family: Arial, sans-serif;
+				color: rgba(0,0,0,.8);
+				vertical-align: top;
+			}
+
+			footer#rodape {
+				padding: 0px;
+				margin-bottom: 0px;
+				margin-top: 30px;
+				text-align: center;
+				border-top: 1px solid rgba(0,0,0,.2);
+			}
+
+			footer#rodape p {
+				margin-top: 20px;
+			}
+
+		</style>
+	</head>
+
+	<body>
+		<div id="main">
+		<header id="cabecalho">
+			<h1>Seja bem vindo!</h1>
+			<h2>Vamos trabalhar com tabelas!</h2>
+			<p>Algumas demonstrações de tabelas e suas aplicações CSS</p>
+		</header>
+		<div id="tabela">
+			<h1>Tabela Simples:</h1>
+			<p>Utilizando bordas e alinhamento simples!</p>
+			<table id="tabela01">
+			<tr><td>Titulo Esquerda</td><td>Titulo Direita</td></tr>
+			<tr><td>Bloco Esquerda 01</td><td>Bloco Direita 01</td></tr>
+			<tr><td>Bloco Esquerda 02</td><td>Bloco Direita 02</td></tr>
+			<tr><td>Bloco Esquerda 03</td><td>Bloco Direita 03</td></tr>
+			</table>
+
+			<h1>Tabela Simples 02:</h1>
+			<p>Agora algumas cores!</p>
+			<table id="tabela02">
+			<tr><td>Titulo Esquerda</td><td>Titulo Direita</td></tr>
+			<tr><td>Bloco Esquerda 01</td><td>Bloco Direita 01</td></tr>
+			<tr><td>Bloco Esquerda 02</td><td>Bloco Direita 02</td></tr>
+			<tr><td>Bloco Esquerda 03</td><td>Bloco Direita 03</td></tr>
+			</table>
+
+			<h1>Tabela Simples 03:</h1>
+			<p>Algumas quebras diferentes!</p>
+			<table id="tabela03">
+			<tr><td>Titulo Esquerda</td><td>Titulo Direita</td></tr>
+			<tr><td colspan="2">Bloco Esquerda 01</td></tr>
+			<tr><td>Bloco Esquerda 02</td><td>Bloco Direita 02</td></tr>
+			<tr><td rowspan="2">Bloco Esquerda 03</td><td>Bloco Direita 03</td></tr>
+			<tr><td>Bloco Direita 04</td></tr>
+			<tr><td>Bloco Esquerda 05</td><td>Bloco Direita 05</td></tr>
+			</table>
+
+
+			<h1>Tabela Simples 04:</h1>
+			<p>Algumas quebras e cores diferentes!</p>
+			<table id="tabela04">
+			<tr><td>Titulo Esquerda</td><td>Titulo Direita</td></tr>
+			<tr><td colspan="2">Bloco Esquerda 01</td></tr>
+			<tr><td>Bloco Esquerda 02</td><td>Bloco Direita 02</td></tr>
+			<tr><td rowspan="2">Bloco Esquerda 03</td><td>Bloco Direita 03</td></tr>
+			<tr><td>Bloco Direita 04</td></tr>
+			<tr><td>Bloco Esquerda 05</td><td>Bloco Direita 05</td></tr>
+			</table>
+			</div>
+			<footer id="rodape">
+				<p>opensource - gNew 2014</p>
+			</footer>
+
+		</div>
+	</body>
+
+</html>

@@ -6,6 +6,7 @@
 		}
 
 		body {
+			font-family: Arial, sans-serif;
 			background-color: #dddddd;
 			color: rgba(0, 0, 0, 0.9);
 		}
@@ -20,6 +21,16 @@
 		p {
 			 text-align: justify;
 			 text-indent: 50px;
+		}
+
+		a {
+			color: #606060
+			text-decoration: none;
+		}
+
+		a:hover {
+			color: black;
+			text-decoration: underline;
 		}
 
 		header#cabecalho img#icone {
@@ -80,6 +91,22 @@
 			opacity: 1;
 		}
 
+		figure.foto-legenda p {
+			font-family: Tahoma;
+			font-size: 12pt;
+			text-indent: 5px;
+			margin-top: 0px;
+		}
+
+		figure.foto-legenda h3 {
+			font-family: Tahoma;
+			font-size: 15pt;
+			text-align: left;
+			padding: 0px 5px 0px 5px;
+			margin-bottom: 0px;
+			margin-top: 0px;
+		}
+
 		/* Formatação do menu */
 		nav#menu {
 			display: block;
@@ -90,7 +117,7 @@
 			text-transform: uppercase;
 			position: absolute;
 			top: -20px;
-			left: 830px;
+			left: 820px;
 		}
 
 		nav#menu li {
@@ -118,4 +145,118 @@
 		nav#menu a:hover {
 			color: white;
 			text-decoration: underline;
+		}
+
+		section#corpo {
+			display: block;
+			width: 500px;
+			float: left;
+			border-right: 1px rgba(0,0,0,.3) solid;
+			padding-right: 15px; 
+		}
+
+		article#noticia-principal h2 {
+			font-size: 12pt;
+			color: #606060;
+			background-color: #dddddd;
+			padding: 5px 0px 5px 10px;
+			margin: 10px 0px 10px 0px;
+		}
+
+		header#cabecalho-artigo h1 {
+			font-family: 'FonteLogo', sans-serif;
+			font-size: 20pt;
+			color: #606060;
+			margin-bottom: 0px;
+			margin-top: 0px;
+		}
+
+		header#cabecalho-artigo h2 {
+			font-size: 12pt;
+			color: #cecece;
+			background-color: #ffffff;
+			margin: 0px;
+		}
+
+		header#cabecalho-artigo h3 {
+			font-size: 12pt;
+			color: #606060;	
+		}
+
+		.direita {
+			text-align: right;
+		}
+
+		table#tabelaspec {
+			border: 1px solid #606060;
+			border-spacing: 0px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		table#tabelaspec td {
+			text-align: center;
+			vertical-align: top;
+			border: 1px solid #666666;
+			padding: 10px;
+		}
+
+		table#tabelaspec td.colunesq {
+			background-color: #666666;
+			text-align: right;
+			color: white;
+			font-weight: bold;
+		}
+
+		table#tabelaspec caption {
+			color: #888888;
+			font-size: 12pt;
+			font-weight: bolder;
+		}
+
+		table#tabelaspec caption span {
+			display: block;
+			float: right;
+			color: black;
+			font-size: 8pt;
+			margin-top: 10px;
+		}
+
+		table#tabelaspec td.colundir {
+			background-color: #dddddd;
+			text-align: left;
+		}
+
+		aside#lateral {
+			display: block;
+			width: 350px;
+			float: right;
+			background-color: #dddddd;
+			margin-top: 10px;
+			padding: 10px;
+			box-shadow: 0px 2px 5px rgba(0,0,0,.3)
+		}
+
+		aside#lateral h1 {
+			font-family: 'FonteLogo', sans-serif;
+			font-family: 20pt;
+			color: #606060;
+		}
+
+		aside#lateral h2 {
+			background-color: #606060;
+			font-size: 12pt;
+			color: #ffffff;
+			padding: 10px;
+
+		}
+
+
+		footer#rodape {
+			clear: both;
+			border-top: 1px rgba(0,0,0,.3) solid;
+		}
+
+		footer#rodape p {
+			text-align: center;
 		}
