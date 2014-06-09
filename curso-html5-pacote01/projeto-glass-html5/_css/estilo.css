@@ -34,9 +34,9 @@
 		}
 
 		header#cabecalho img#icone {
-			position: absolute;
-			left: 1200px;
-			top: 70px;
+			position: relative;
+			left: 700px;
+			top: -50px;
 		}
 
 		header#cabecalho {
@@ -234,7 +234,7 @@
 			background-color: #dddddd;
 			margin-top: 10px;
 			padding: 10px;
-			box-shadow: 0px 2px 5px rgba(0,0,0,.3)
+			box-shadow: 0px 2fpx 5px rgba(0,0,0,.3)
 		}
 
 		aside#lateral h1 {
